@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+	<html lang="es">
+		<head>
+			<meta charset="UTF-8"/>
+			<title>Proyecto con Javascript</title>
+			
+			<!--CSS-->
+			<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+			<link id="theme" rel="stylesheet" type="text/css" href="css/green.css"/>
+			
+			<!--jQuery-->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+			<link rel="stylesheet" href="js/jquery-ui/jquery-ui.min.css"/>
+			<link rel="stylesheet" href="js/jquery-ui/jquery-ui.structure.css"/>
+			<link rel="stylesheet" href="js/jquery-ui/jquery-ui.theme.min.css"/>
+			<script type="text/javascript" src="js/jquery-ui/jquery-ui.min.js"></script>
+			
+			<!--JS-->
+			<script type="text/javascript" src="js/main.js"></script>
+			
+			
+		</head>
+		
+		<body>
+		
+			<div id="selector-theme">
+				<div id="to-green"></div>
+				<div id="to-red"></div>
+				<div id="to-blue"></div>
+			</div>
+		
+			<section id="global">
+			
+				<!--Cabecera-->
+				<header>
+					<div id="logo">
+						<h1>Proyecto JS</h1>
+					</div>
+					<div class="clearfix"/>
+					<nav id="menu">
+						<ul>
+							<li>
+								<a href="index.html">Inicio</a>
+							</li>
+							<li>
+								<a href="reloj.html">Reloj</a>
+							</li>
+							<li>
+								<a href="about.html">Sobre mí</a>
+							</li>
+							<li>
+								<a href="contact.html">Contacto</a>
+							</li>
+						</ul>
+					</nav>
+				</header>
+				
+				<!--Contenido-->
+				<section id="content">
+					<div id="box">
+					<h2>Sobre mí</h2>
+					<!--Cargar acordeon-->
+						<div id="acordeon">
+							<h3>Quienes somos</h3>
+							<div>
+								<p>Lorem ipsum dolor sit amet</p>
+							</div>
+							<h3>Nuestros servicios</h3>
+							<div>
+								<p>Lorem ipsum dolor sit amet</p>
+							</div>
+							<h3>Nuestros clientes</h3>
+							<div>
+								<p>Lorem ipsum dolor sit amet</p>
+							</div>
+						</div>
+					</div>
+					
+					<aside id="sidebar">
+						<div id="about">
+							<h4>Quien soy</h4>
+							<img src="img/caracol.jpg"/>
+							<p>Lorem ipsum</p>
+						</div>
+						
+						<div id="login">
+							<h4>Identifícate</h4>
+							<form>
+								<label for="name">Nombre</label>
+								<input id="form-nombre" type="text" name="name" placeholder="Pepe"/>
+								<label for="email">Email</label>
+								<input type="email" name="email" placeholder="example@gmail.com"/>
+								<label for="password">Contraseña</label>
+								<input type="password" name="password" placeholder="*****"/>
+								<input type="submit" name="button" value="Entrar"/>
+							</form>
+						</div>
+					</aside>
+					
+					<div class="clearfix"></div>
+					
+				</section>
+			</section>
+			
+			<footer>
+				Diego Rodríguez Souto &copy
+				<a href="#" class="subir">Ir arriba</a>
+			</footer>
+			
+		</body>
+	</html>
+	

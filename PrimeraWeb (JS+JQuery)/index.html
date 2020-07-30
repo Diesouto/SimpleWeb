@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+	<html lang="es">
+		<head>
+			<meta charset="UTF-8"/>
+			<title>Proyecto con Javascript</title>
+			
+			<!--CSS-->
+			<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+			<link id="theme" rel="stylesheet" type="text/css" href="css/green.css"/>
+			
+			
+			<!--Slider JQuery-->
+			<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+			<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+		
+			<!--Moment JS-->
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/locale/es.min.js"></script>
+		
+			<!--JS-->
+			<script type="text/javascript" src="js/main.js"></script>
+			
+		</head>
+		
+		<body>
+		
+			<div id="selector-theme">
+				<div id="to-green"></div>
+				<div id="to-red"></div>
+				<div id="to-blue"></div>
+			</div>
+		
+			<section id="global">
+			
+				<!--Cabecera-->
+				<header>
+					<div id="logo">
+						<h1>Proyecto JS</h1>
+					</div>
+					<div class="clearfix"/>
+					<nav id="menu">
+						<ul>
+							<li>
+								<a href="index.html">Inicio</a>
+							</li>
+							<li>
+								<a href="reloj.html">Reloj</a>
+							</li>
+							<li>
+								<a href="about.html">Sobre mí</a>
+							</li>
+							<li>
+								<a href="contact.html">Contacto</a>
+							</li>
+						</ul>
+					</nav>
+				</header>
+				
+				<!--Slider-->
+				<div class="slider">
+					<div><img src="img/hojas.jpg" title="Hojas"/></div>
+					<div><img src="img/rojo.jpg" title="Rojo"/></div>
+					<div><img src="img/cielo.jpg" title="Cielo"/></div>
+				</div>
+				
+				<!--Contenido-->
+				<section id="content">
+					<div id="posts">
+					<!--Cargar posts desde json-->
+					</div>
+					
+					<aside id="sidebar">
+						<div id="about">
+							<h4>Quien soy</h4>
+							<img src="img/caracol.jpg"/>
+							<p>Lorem ipsum</p>
+						</div>
+						
+						<div id="login">
+							<h4>Identifícate</h4>
+							<form>
+								<label for="name">Nombre</label>
+								<input id="form-nombre" type="text" name="name" placeholder="Pepe"/>
+								<label for="email">Email</label>
+								<input type="email" name="email" placeholder="example@gmail.com"/>
+								<label for="password">Contraseña</label>
+								<input type="password" name="password" placeholder="*****"/>
+								<input type="submit" name="button" value="Entrar"/>
+							</form>
+						</div>
+					</aside>
+					
+					<div class="clearfix"></div>
+					
+				</section>
+			</section>
+			
+			<footer>
+				Diego Rodríguez Souto &copy
+				<a href="#" class="subir">Ir arriba</a>
+			</footer>
+			
+		</body>
+	</html>
+	
